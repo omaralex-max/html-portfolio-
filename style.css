@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EFEEE7;
+}
+.title{
+    background-image: url('./assets/1.png');
+}
+.d-block{
+    border-radius: 100%;
+}
+img:hover {
+    box-shadow: 0 0 4px 4px rgba(0, 140, 186, 0.5);
+  }
+ 
+.intro{
+    background-image: url('./assets/2.png');
+}
+.head{
+    text-align: left;
+    font-family: 'Instrument Serif', serif;
+    margin-left: 100px;
+    letter-spacing: 3px;
+}
+h1{
+    font-family: 'Instrument Serif', serif;
+    letter-spacing: 5px;
+}
+h2{
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    letter-spacing: 3px;
+}
+h4{
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 10px;
+}
+
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+  }
+
+  .pricing-plan {
+    flex: 1;
+    max-width: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .skills{
+    background-image: url('./assets/3.png');
+  }
+
+  .skll{
+    border-radius: 15%;
+  }
+  .sk{
+    margin-left: 30%;
+  }
+  .contacts{
+    background-image: url('./assets/4.png');
+    margin-bottom: 0%;
+  }
+  .con{
+    margin-left: 20px;
+    margin-bottom: 0%;
+  }
+  ul{
+    list-style: none;
+    font-size: 20px;
+  }
+  .footer{
+    background-color: rgb(92, 92, 92);
+  }
+ 
+  @media (max-width: 1250px) {
+    .pricing-container {
+      flex-direction: column;
+      height: 100%;
+    }
+  }
